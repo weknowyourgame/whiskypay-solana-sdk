@@ -1,0 +1,36 @@
+{
+  "name": "@whisky-peak/whisky-pay-sdk",
+  "version": "2.1.3",
+  "description": "A React SDK for integrating WhiskyPay",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "solana",
+    "payments",
+    "react",
+    "wallet",
+    "web3",
+    "whiskypay"
+  ],
+  "author": "whiskypay",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/buffer-layout": "^4.0.0",
+    "@solana/buffer-layout-utils": "^0.2.0",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/web3.js": "~1.98.0",
+    "axios": "^1.8.4",
+    "bs58": "^6.0.0",
+    "react": "^19.0.0",
+    "react-hot-toast": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "typescript": "^5.7.3"
+  }
+}
